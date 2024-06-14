@@ -4,7 +4,7 @@
 - 📆 **DURATION**: June 25th till July 12th (3 weeks)
 - ⏲️ **TIMINGS**:
   - Theory Sessions 🕙 **10:00am - 1:00pm**
-  - Hands-on practical Sessions 🕝 **2:30pm - 5:00pm**
+  - Hands-on practical Sessions 🕝 **2:30pm - 5:30pm**
 - 🏛️ **VENUE**(Old Building):
   - Theory & Practical Sessions: **Room 04-10** (Advanced VLSI Training Lab)
 
@@ -17,11 +17,11 @@
   - [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha) and [Dr. (Prof.) Priyadarshanam](https://www.iist.ac.in/avionics/priyadarshnam), *Dept. of Avionics, Indian Institute of Space Science and Technology*
  
 -  **COURSE OUTCOME**:
-  - A good understanding of CubeSat, a small satellite format.
-  - Good understanding of satellite communication.
-  - Proficient in RF communication systems using LoRa protocol.
-  - A good understanding of antenna design, simulation and implementation.
-  - Setting up a satelitte ground station using the open source platform TinyGS.
+   - A good understanding of CubeSat, a small satellite format.
+   - Good understanding of satellite communication.
+   - Proficient in RF communication systems using LoRa protocol.
+   - A good understanding of antenna design, simulation and implementation.
+   - Setting up a satelitte ground station using the open source platform TinyGS.
  
 - **COURSE DETAILS**
   - Introduction to small satellite format CubeSats.
