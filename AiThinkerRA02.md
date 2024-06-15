@@ -4,10 +4,12 @@ This is documentation page for the Ai Thinker RA-01/02 LoRa RF module.
 
 # Resources 
  - [Ai Thinker LoRa Doc Page](https://docs.ai-thinker.com/en/lora/man)
+   - [RA-02 Product Specification](docs/datasheet-LoRaModule-RA02-v1_1.pdf)
+   - [SX1276/7/8/9 LoRa™ Chipset Datasheet](docs/Datasheet-SX1276-7-8-9_W_APP_V7.pdf)
 
 # Overview
 
-Anxinke LoRa series modules (Ra-01/Ra-02) are designed and developed by Anxinke Technology. The radio frequency chip of this series of modules SX1278 mainly uses LoRa™ remote modem for ultra-long-distance spread spectrum communication. It has strong anti-interference and can Minimize current consumption. With the help of SEMTECH's LoRa™ patented modulation technology, SX1278 has a high sensitivity of over -148dBm, a power output of +20dBm, a long transmission distance and high reliability. At the same time, compared with traditional modulation technology, LoRa™ modulation technology also has obvious advantages in anti-blocking and selection, which solves the problem of distance, anti-interference and power consumption that traditional design solutions cannot simultaneously take into account.
+Anxinke LoRa series modules (Ra-01/Ra-02) are designed and developed by Anxinke Technology. The radio frequency chip of this series of modules **SX1278** mainly uses LoRa™ remote modem for ultra-long-distance spread spectrum communication. It has strong anti-interference and can Minimize current consumption. With the help of SEMTECH's LoRa™ patented modulation technology, SX1278 has a high sensitivity of over -148dBm, a power output of +20dBm, a long transmission distance and high reliability. At the same time, compared with traditional modulation technology, LoRa™ modulation technology also has obvious advantages in anti-blocking and selection, which solves the problem of distance, anti-interference and power consumption that traditional design solutions cannot simultaneously take into account.
 
 ## Ra-01/Ra-02 module characteristics
 
@@ -26,6 +28,7 @@ Anxinke LoRa series modules (Ra-01/Ra-02) are designed and developed by Anxinke 
 ![RA 02 Pin Diagram](images/RA-02-pin.png)
 
 | **RA-01** | **RA-02** | **PIN NAME** | **DESCRIPTION** |
+|--------|--------|--------|--------|
 | 1 | - | ANT | Antenna    |
 | 2 | 1,2 | GND | Ground    |
 | 3 | 3 | 3.3V | 3.3V power supply  |
@@ -42,4 +45,12 @@ Anxinke LoRa series modules (Ra-01/Ra-02) are designed and developed by Anxinke 
 | 14 | 14 | MOSI | SPI data input  |
 | 15 | 15 | NSS | SPI chip select input |
 | 16 | 16 | GND | Ground    |
-|--------|--------|--------|--------|
+
+
+## Receive Sensitivity at 433 MHz
+
+| Spread Factor | SNR (dB) | Sensitivity (dBm) |
+|--------|--------|--------|
+| 7 | -7 | -125 |
+| 10 | -15 | -134 |
+| 12 | -20 | -141 |
