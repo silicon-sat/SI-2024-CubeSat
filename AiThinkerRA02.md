@@ -55,7 +55,7 @@ Anxinke LoRa series modules (Ra-01/Ra-02) are designed and developed by Anxinke 
 | 10 | -15 | -134 |
 | 12 | -20 | -141 |
 
-## RX Bandwidth Spread-Factor DataRate TradeOff
+## LoRa™ Rate Calculation Guide
 
 | SrNo | BW\SF | 6 | 7 | 8 | 9 |10 | 11 | 12 |
 |----|----|----|----|----|----|----|----|----|
