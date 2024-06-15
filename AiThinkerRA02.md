@@ -42,4 +42,4 @@ Anxinke LoRa series modules (Ra-01/Ra-02) are designed and developed by Anxinke 
 | 14 | 14 | MOSI | SPI data input  |
 | 15 | 15 | NSS | SPI chip select input |
 | 16 | 16 | GND | Ground    |
-| -------- | -------- | -------- | -------- |
+|--------|--------|--------|--------|
