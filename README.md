@@ -1,4 +1,4 @@
-# About
+# Course Venue & Timings
 🛰️ This is the portal for Summer Internship 2024 on Introduction to CubeSat and Satellite Communication. 📡
 
 - 📆 **DURATION**: June 25th till July 12th (3 weeks)
@@ -7,6 +7,9 @@
   - Hands-on practical Sessions 🕝 **2:30pm - 5:30pm**
 - 🏛️ **VENUE**(Old Building):
   - Theory & Practical Sessions: **Room 04-10** (Advanced VLSI Training Lab)
+ 
+
+# Course Details
 
 - 📖 **PREREQUISITES**:
   - 1st Year Engineering Math Courses.
