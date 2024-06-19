@@ -8,7 +8,14 @@
 - 🏛️ **VENUE**(Old Building):
   - Theory & Practical Sessions: **Room 04-10** (Advanced VLSI Training Lab)
 
-# Computing Requirement
+# Lab Info
+
+## Requirements
+
+- Download and install [Arduino IDE](https://www.arduino.cc/en/software). Majority of the Lab will be writing C code for the ESP 32 platform which will developed in this IDE.
+- Download and install [4NEC2](https://www.qsl.net/4nec2/), antenna modeling and simulation softwware. The antenna design and simulation will be done using this sofware.
+- Install [Windows Subsystem for Linux (WSL)](https://github.com/silicon-vlsi-org/eda-wsl2). In this instruction, **omit** the installation of EDA tools. There will be few instances during the course where the student has to write a code in Python or other lannguages. We will use WSL for that purpose. 
+- 
 
 
 
