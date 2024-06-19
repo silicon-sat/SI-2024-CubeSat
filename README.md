@@ -7,7 +7,18 @@
   - Hands-on practical Sessions 🕝 **2:30pm - 5:30pm**
 - 🏛️ **VENUE**(Old Building):
   - Theory & Practical Sessions: **Room 04-10** (Advanced VLSI Training Lab)
- 
+
+# Computing Requirement
+
+
+
+# Resources
+
+- [LoRa Module Ai Thinker RA-02](AiThinkerRA02.md)
+  - [Datasheet](docs/datasheet-LoRaModule-RA02-v1_1.pdf)
+
+- [LoRa Library GitHub](https://github.com/sandeepmistry/arduino-LoRa)
+- [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
 
 # Course Details
 
@@ -49,10 +60,4 @@
     - A group of three will design a implement their ground station. The ground stations will be judged based on figure of merit based on the density of satellites and the strength of the signal received. The final winner will present a poster during the upcoming NES-2024 workshop.
 
 
-# Resources
 
-- [LoRa Module Ai Thinker RA-02](https://docs.ai-thinker.com/en/lora)
-  - [Datasheet](docs/datasheet-LoRaModule-RA02-v1_1.pdf)
-
-- [LoRa Library GitHub](https://github.com/sandeepmistry/arduino-LoRa)
-- [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
