@@ -12,20 +12,22 @@
 
 ## Requirements
 
-- Download and install [Arduino IDE](https://www.arduino.cc/en/software). Majority of the Lab activity will be writing C code for the ESP 32 platform which we will develop using this IDE.
+- Download and install the latest version (2.3.2+) [Arduino IDE](https://www.arduino.cc/en/software). Majority of the Lab activity will be writing `C Programming Language` for the ESP 32 platform which we will develop using the Arduino IDE.
 - Download and install [4NEC2](https://www.qsl.net/4nec2/), antenna modeling and simulation softwware. The antenna design and simulation will be done using this sofware.
-- Install [Windows Subsystem for Linux (WSL)](https://github.com/silicon-vlsi-org/eda-wsl2). In this instruction, **omit** the installation of EDA tools. There will be few instances during the course where the student has to write a code in Python or other lannguages. We will use WSL for that purpose. 
-- 
+- Install [Windows Subsystem for Linux (WSL)](https://github.com/silicon-vlsi-org/eda-wsl2). In this instruction page, **OMIT** the installation of EDA tools. During the tenure of the course, we will learn many fundamental signal processing concepts that is best practiced using the Python programming/scripting language. We will WSL for that purpose. Python language is not a prereq, the basic programming structures will be provided to you. 
 
+## Lab Resources
 
+- [Ai Thinker's LoRa Radio Module RA-02](AiThinkerRA02.md) is RF radio module based on the Semtech's SX127X transceiver chip. This module will be used for all the satellite communication Lab exercises as well as the [tinyGS](https://tinygs.com) ground station. This page provides the basic information about the module.
+  - [Datasheet RA-02](docs/datasheet-LoRaModule-RA02-v1_1.pdf): Ai Thinker's LoRa Radio Module RA-02
+- The [SX1276/77/78/79](https://www.semtech.com/products/wireless-rf/lora-connect/sx1276) transceiver chipset features the LoRa® long range modem that provides ultra-long range spread spectrum communication
+  - [Datasheet SX127X](docs/Datasheet-SX1276-7-8-9_W_APP_V7.pdf)
+  - [Application Note AN1200-22](docs/AN1200_22_Semtech_LoRa_Basics_v2_STD.pdf): This application note covers the basics of LoRa Modulation including spread-spectrum communication and LoRa spread spectrum. 
+  - [Application Note AN1200-13](docs/AN1200_13_SX17x_Modem_DesignerGuide.pdf): This is an application note for LoRa modem design covering basic priciples of LoRa Design (Modulation, RX Senisitivty, SNR, SF, BW, etc.) to advancd LoRa design (FEC, HW, etc) and how to use the LoRa calculator to optimize Radio design.
+- LoRa Library for ESP32 firmware development:
+  - [LoRa Library GitHub](https://github.com/sandeepmistry/arduino-LoRa)
+  - [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
 
-# Resources
-
-- [LoRa Module Ai Thinker RA-02](AiThinkerRA02.md)
-  - [Datasheet](docs/datasheet-LoRaModule-RA02-v1_1.pdf)
-
-- [LoRa Library GitHub](https://github.com/sandeepmistry/arduino-LoRa)
-- [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
 
 # Course Details
 
@@ -36,6 +38,7 @@
 - 👨‍🏫 **RESOURCE PERSONS**:
   - [Dr. Saroj Rout](https://sroutk.github.io) and [Prof. Prasant Swain](https://silicon.ac.in/wp-content/uploads/2022/04/Prasant-Kumar-Swain.pdf), *ECE*, *Silicon University*
   - [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha) and [Dr. (Prof.) Priyadarshanam](https://www.iist.ac.in/avionics/priyadarshnam), *Dept. of Avionics, Indian Institute of Space Science and Technology*
+  - [Adnaan M](https://www.linkedin.com/in/adnaan-m-262a261b2/), Founder, *ToSpace, Karur, Tamil Nadu*.
  
 -  **COURSE OUTCOME**:
    - A good understanding of CubeSat, a small satellite format.
