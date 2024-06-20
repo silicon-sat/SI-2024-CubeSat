@@ -7,6 +7,11 @@
   - Hands-on practical Sessions 🕝 **2:30pm - 5:30pm**
 - 🏛️ **VENUE**(Old Building):
   - Theory & Practical Sessions: **Room 04-10** (Advanced VLSI Training Lab)
+- 👨‍🏫 **RESOURCE PERSONS**:
+  - [Dr. Saroj Rout](https://sroutk.github.io) and [Prof. Prasant Swain](https://silicon.ac.in/wp-content/uploads/2022/04/Prasant-Kumar-Swain.pdf), *ECE*, *Silicon University*
+  - [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha) and [Dr. (Prof.) Priyadarshanam](https://www.iist.ac.in/avionics/priyadarshnam), *Dept. of Avionics, Indian Institute of Space Science and Technology*
+  - [Adnaan M](https://www.linkedin.com/in/adnaan-m-262a261b2/), Founder, *ToSpace, Karur, Tamil Nadu*.
+ 
 
 # Lab Info
 
@@ -34,11 +39,6 @@
 - 📖 **PREREQUISITES**:
   - 1st Year Engineering Math Courses.
   - All programming the embedded systems will be done using 'C language'. So a general revision will help.
-
-- 👨‍🏫 **RESOURCE PERSONS**:
-  - [Dr. Saroj Rout](https://sroutk.github.io) and [Prof. Prasant Swain](https://silicon.ac.in/wp-content/uploads/2022/04/Prasant-Kumar-Swain.pdf), *ECE*, *Silicon University*
-  - [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha) and [Dr. (Prof.) Priyadarshanam](https://www.iist.ac.in/avionics/priyadarshnam), *Dept. of Avionics, Indian Institute of Space Science and Technology*
-  - [Adnaan M](https://www.linkedin.com/in/adnaan-m-262a261b2/), Founder, *ToSpace, Karur, Tamil Nadu*.
  
 -  **COURSE OUTCOME**:
    - A good understanding of CubeSat, a small satellite format.
