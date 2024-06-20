@@ -14,7 +14,7 @@
 
 - Download and install the latest version (2.3.2+) [Arduino IDE](https://www.arduino.cc/en/software). Majority of the Lab activity will be writing `C Programming Language` for the ESP 32 platform which we will develop using the Arduino IDE.
 - Download and install [4NEC2](https://www.qsl.net/4nec2/), antenna modeling and simulation softwware. The antenna design and simulation will be done using this sofware.
-- Install [Windows Subsystem for Linux (WSL)](https://github.com/silicon-vlsi-org/eda-wsl2). In this instruction page, **OMIT** the installation of EDA tools. During the tenure of the course, we will learn many fundamental signal processing concepts that is best practiced using the Python programming/scripting language. We will WSL for that purpose. Python language is not a prereq, the basic programming structures will be provided to you. 
+- Install [Windows Subsystem for Linux (WSL)](https://github.com/silicon-vlsi-org/eda-wsl2) with Ubuntu 22.04 Linux Distro. In this instruction page, **OMIT** the installation of EDA tools. During the tenure of the course, we will learn many fundamental signal processing concepts that is best practiced using the Python programming/scripting language. We will WSL for that purpose. Python language is not a prereq, the basic programming structures will be provided to you. 
 
 ## Lab Resources
 
