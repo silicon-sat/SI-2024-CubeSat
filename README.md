@@ -1,5 +1,14 @@
-# Course Venue & Timings
 🛰️ This is the portal for Summer Internship 2024 on Introduction to CubeSat and Satellite Communication. 📡
+
+#  📢 Announcements 📢
+- A Talk on "*Small Form-Factor Satellites and Satellite Communication*" [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha), *Dept. of Avionics, Indian Institute of Space Science and Technology*, A eminent scientist in Space Science and Technology will deliver a motivating talk on the topic.
+  - Date and Time: *June 25th* (Tue) at **11:00am**
+  - Venue: Training Hall 2, 2nd Flr, New Building ([Zoom Link](https://zoom.us/j/98682021916?pwd=cddDcAKdyVmyVATKuYpmloXmvwuhPE.1))
+- A Talk on "*CubeSat by Adnaan M.*", Founder, ToSpace. An entrepreneur and industry expert who will give an unique perspective of the space industry in India.
+  - Date and Time: *June 25th* (Tue) at **3:00pm**
+  - Venue: Training Hall 2, 2nd Flr, New Building ([Zoom Link](https://zoom.us/j/91236926103?pwd=sEsxDbgwDV1kIaMutgASxOOKS2aw9o.1))
+
+# Course Venue & Timings
 
 - 📆 **DURATION**: June 25th till July 12th (3 weeks)
 - ⏲️ **TIMINGS**:
@@ -7,6 +16,7 @@
   - Hands-on practical Sessions 🕝 **2:30pm - 5:30pm**
 - 🏛️ **VENUE**(Old Building):
   - Theory & Practical Sessions: **Room 04-10** (Advanced VLSI Training Lab)
+    - **NOTE** The venue for **June 25th ONLY** is **Training Hall-2, 2nd Floor, New Building**.
 - 👨‍🏫 **RESOURCE PERSONS**:
   - [Dr. Saroj Rout](https://sroutk.github.io) and [Prof. Prasant Swain](https://silicon.ac.in/wp-content/uploads/2022/04/Prasant-Kumar-Swain.pdf), *ECE*, *Silicon University*
   - [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha) and [Dr. (Prof.) Priyadarshanam](https://www.iist.ac.in/avionics/priyadarshnam), *Dept. of Avionics, Indian Institute of Space Science and Technology*
