@@ -1,10 +1,10 @@
 🛰️ This is the portal for Summer Internship 2024 on Introduction to CubeSat and Satellite Communication. 📡
 
 #  📢 Announcements 📢
-- A Talk on "*Small Form-Factor Satellites and Satellite Communication*" [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha), *Dept. of Avionics, Indian Institute of Space Science and Technology*, A eminent scientist in Space Science and Technology will deliver a motivating talk on the topic.
+- A Talk on "*Small Form-Factor Satellites and Satellite Communication*" [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha), *Dept. of Avionics, Indian Institute of Space Science and Technology*. A eminent scientist in the area of space science and technology who will deliver a motivating talk on the topic.
   - Date and Time: *June 25th* (Tue) at **11:00am**
   - Venue: Training Hall 2, 2nd Flr, New Building ([Zoom Link](https://zoom.us/j/98682021916?pwd=cddDcAKdyVmyVATKuYpmloXmvwuhPE.1))
-- A Talk on "*CubeSat by Adnaan M.*", Founder, ToSpace. An entrepreneur and industry expert who will give an unique perspective of the space industry in India.
+- *"A Talk on CubeSat*" by [Adnaan M](https://www.linkedin.com/in/adnaan-m-262a261b2/), Founder, *ToSpace, Karur, Tamil Nadu*. An entrepreneur and industry expert who will give an unique perspective of the space industry in India.
   - Date and Time: *June 25th* (Tue) at **3:00pm**
   - Venue: Training Hall 2, 2nd Flr, New Building ([Zoom Link](https://zoom.us/j/91236926103?pwd=sEsxDbgwDV1kIaMutgASxOOKS2aw9o.1))
 
