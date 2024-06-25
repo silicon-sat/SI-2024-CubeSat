@@ -1,13 +1,5 @@
 🛰️ This is the portal for Summer Internship 2024 on Introduction to CubeSat and Satellite Communication. 📡
 
-#  📢 Announcements 📢
-- A Talk on "*Small Form-Factor Satellites and Satellite Communication*" [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha), *Dept. of Avionics, Indian Institute of Space Science and Technology*. A eminent scientist in the area of space science and technology who will deliver a motivating talk on the topic.
-  - Date and Time: *June 25th* (Tue) at **11:00am**
-  - Venue: Training Hall 2, 2nd Flr, New Building ([Zoom Link](https://zoom.us/j/98682021916?pwd=cddDcAKdyVmyVATKuYpmloXmvwuhPE.1))
-- *"A Talk on CubeSat*" by [Adnaan M](https://www.linkedin.com/in/adnaan-m-262a261b2/), Founder, *ToSpace, Karur, Tamil Nadu*. An entrepreneur and industry expert who will give an unique perspective of the space industry in India.
-  - Date and Time: *June 25th* (Tue) at **3:00pm**
-  - Venue: Training Hall 2, 2nd Flr, New Building ([Zoom Link](https://zoom.us/j/91236926103?pwd=sEsxDbgwDV1kIaMutgASxOOKS2aw9o.1))
-
 # Course Venue & Timings
 
 - 📆 **DURATION**: June 25th till July 12th (3 weeks)
@@ -48,6 +40,29 @@
   - [LoRa Library GitHub](https://github.com/sandeepmistry/arduino-LoRa)
   - [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
 
+
+# Lab Exercises
+
+## Lab 1: Dimming LED
+
+In this exercise we are going to use the ESP32 to control the light intensity of an external LED using PWM signal.
+
+- From the [LED Datasheet](docs/Datasheet-LED-XLMR01DE.pdf) tabulate the following data:
+  - Maximum Forward current (If)
+  - Typical Forward Voltage (Vf)
+  - Dominant Wavelength (lambdaD)
+  - Estimate the color (RGB) from the above wavelength
+  - Typical Cacpacitance (pF)
+- From the [ESP32 Datasheet](docs/Datasheet-ESP32.pdf) find the maximum output voltage of the GPIO pins.
+- Calculate the value of the resistance to pass half of the Maximum forward current (If) when ON.
+- Find the closest E10 standardized resistor value available in the market to use for the above limiter.
+- Calculate the maximum frequency you can switch the LED such that, the RC time-constant of the LED-cap-resitor is at least 1/5 of the switching period.
+- Find out what is the minimum frequency you can switch the LED.
+- Decide on a frequency which is safely in between the minimum and maximum.
+- Write a program for ESP32:
+  - Assign an output for the LED
+  - Assign an input for 2-step dimmer control.
+    
 
 # Course Details
 
