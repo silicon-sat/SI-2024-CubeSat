@@ -53,15 +53,22 @@ In this exercise we are going to use the ESP32 to control the light intensity of
   - Dominant Wavelength (lambdaD)
   - Estimate the color (RGB) from the above wavelength
   - Typical Cacpacitance (pF)
-- From the [ESP32 Datasheet](docs/Datasheet-ESP32.pdf) find the maximum output voltage of the GPIO pins.
-- Calculate the value of the resistance to pass half of the Maximum forward current (If) when ON.
-- Find the closest E10 standardized resistor value available in the market to use for the above limiter.
-- Calculate the maximum frequency you can switch the LED such that, the RC time-constant of the LED-cap-resitor is at least 1/5 of the switching period.
+  - Operating temperature range
+- From the [ESP32 Datasheet](docs/Datasheet-ESP32.pdf) find and tabulate:
+  - the maximum output voltage of the GPIO pins, and
+  - the maximum current that the GPIO can source from supply to the load.
+- Calculate the value of the resistance to pass _half of the Maximum_ forward current (If) when ON.
+  - Make sure this current can be sourced by the output port.
+- Find the closest *E12* standardized resistors value available in the market to use for the above limiter.
+  - See this [guide](https://eepower.com/resistor-guide/resistor-standards-and-codes/resistor-values/#) on resistor standardization.
+- Calculate the maximum frequency you can switch the LED such that, the RC time-constant of the LED-cap-resitor is at least 1/25 of the switching period.
 - Find out what is the minimum frequency you can switch the LED.
 - Decide on a frequency which is safely in between the minimum and maximum.
 - Write a program for ESP32:
-  - Assign an output for the LED
-  - Assign an input for 2-step dimmer control.
+  - Assign an output port for the LED
+  - Assign an input port for 2-step dimmer control.
+    - 1: Full intensity, 0: 25-percent intensity.
+  - Write a program to control the LED intensity using Pulse-Width Modulation (PWM).
     
 
 # Course Details
