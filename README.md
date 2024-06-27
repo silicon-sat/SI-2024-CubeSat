@@ -23,6 +23,9 @@
   - [Installing the ESP32 boards](https://randomnerdtutorials.com/installing-esp32-arduino-ide-2-0/)
 - Download and install [4NEC2](https://www.qsl.net/4nec2/), antenna modeling and simulation softwware. The antenna design and simulation will be done using this sofware.
 - Install [Windows Subsystem for Linux (WSL)](https://github.com/silicon-vlsi-org/eda-wsl2) with **Ubuntu 22.04 Linux Distro** (**OMIT** instruction related to EDA tools). During the tenure of the course, we will learn many fundamental signal processing concepts that is best practiced using the Python programming/scripting language. We will WSL for that purpose. Python language is not a prereq, the basic programming structures will be provided to you.
+  - After updating your linux distro, install the following packages:
+  - `sudo apt install pip -y`
+  - `pip install numpy scipy matplotlib`
 - Create a [GitHub](https://github.com) account if you don't have one already. We will use it for multiple purpose: for submission Lab assignment, documenting your Labs and final projec and keeping a revision control repository of all your work during the course work.
 
 ## Lab Resources
