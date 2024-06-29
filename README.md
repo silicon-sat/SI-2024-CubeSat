@@ -1,19 +1,64 @@
 🛰️ This is the portal for Summer Internship 2024 on Introduction to CubeSat and Satellite Communication. 📡
 
-# Course Venue & Timings
 
-- 📆 **DURATION**: June 25th till July 12th (3 weeks)
-- ⏲️ **TIMINGS**:
-  - Theory Sessions 🕙 **10:00am - 1:00pm**
-  - Hands-on practical Sessions 🕝 **2:30pm - 5:30pm**
-- 🏛️ **VENUE**(Old Building):
-  - Theory & Practical Sessions: **Room 04-10** (Advanced VLSI Training Lab)
-    - **NOTE** The venue for **June 25th ONLY** is **Training Hall-2, 2nd Floor, New Building**.
-- 👨‍🏫 **RESOURCE PERSONS**:
-  - [Dr. Saroj Rout](https://sroutk.github.io) and [Prof. Prasant Swain](https://silicon.ac.in/wp-content/uploads/2022/04/Prasant-Kumar-Swain.pdf), *ECE*, *Silicon University*
-  - [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha) and [Dr. (Prof.) Priyadarshanam](https://www.iist.ac.in/avionics/priyadarshnam), *Dept. of Avionics, Indian Institute of Space Science and Technology*
-  - [Adnaan M](https://www.linkedin.com/in/adnaan-m-262a261b2/), Founder, *ToSpace, Karur, Tamil Nadu*.
- 
+# Lab Exercises
+
+## Lab 5: Introduction Signal Processing using Python
+
+- You can use [lab1-fft.py](Labs/python/lab1-fft.py) and [lab2-fsk.py](Labs/python/lab2-fsk.py) as reference for the following exercises:
+- Write a python program to create a _cosine wave_ of frequency `2MHz` with `256` samples per cycle.
+- Plot it with proper annonation and axis labeling. 
+- Compute the `FFT` of the above signal and plot it.
+  - You will notice the FFT resolution is very limited for a single cycle.
+- Create another a signal of frequency `3MHz`, add it to above signal and do `FFT` for the resultant signal.
+- Simulate [lab2-fsk.py](Labs/python/lab2-fsk.py) and anlayze the plot to understand FSK modulation.
+  - Change the code such that the modulation frequency for `1` is `4MHz` and for `0` it is `3MHz`.
+- Change the above code to simulate ASK modulation.
+- Add demodulation to the above code and plot the time-domain waveform, as well as the FFT of the demodulated signal.
+- Add a moving average filter to remove the high-frequency component from the demodulated signal.
+
+## Lab 4: I2C-based OLED Display control.
+
+In this Lab students learnt to use a I2C-based OLED display to display data on it.
+
+
+## Lab 3: Dimming LED using PWM
+
+In this exercise we are going to use the ESP32 to control the light intensity of an external LED using PWM signal.
+
+- From the [LED Datasheet](docs/Datasheet-LED-XLMR01DE.pdf) tabulate the following data:
+  - Maximum Forward current (If)
+  - Typical Forward Voltage (Vf)
+  - Dominant Wavelength (lambdaD)
+  - Estimate the color (RGB) from the above wavelength
+  - Typical Cacpacitance (pF)
+  - Operating temperature range
+- From the [ESP32 Datasheet](docs/Datasheet-ESP32.pdf) find and tabulate:
+  - the maximum output voltage of the GPIO pins, and
+  - the maximum current that the GPIO can source from supply to the load.
+- Calculate the value of the resistance to pass _half of the Maximum_ forward current (If) when ON.
+  - Make sure this current can be sourced by the output port.
+- Find the closest *E12* standardized resistors value available in the market to use for the above limiter.
+  - See this [guide](https://eepower.com/resistor-guide/resistor-standards-and-codes/resistor-values/#) on resistor standardization.
+- Calculate the maximum frequency you can switch the LED such that, the RC time-constant of the LED-cap-resitor is at least 1/25 of the switching period.
+- Find out what is the minimum frequency you can switch the LED.
+- Decide on a frequency which is safely in between the minimum and maximum.
+- Write a program for ESP32:
+  - Assign an output port for the LED
+  - Assign an input port for 2-step dimmer control.
+    - 1: Full intensity, 0: 25-percent intensity.
+  - Write a program to control the LED intensity using Pulse-Width Modulation (PWM).
+    
+## Lab 2: Intro to GPIO programming.
+
+In this Lab exercise, students learn to configure a GPIO as an output and control an LED with it.
+
+## Lab 1: Intro to ESP32 Programming 
+
+- Install and configure Arduino IDE
+- Introduction to ESP32 development kit.
+- Write and execute a C-code to blink an LED on the dev board.
+
 
 # Lab Info
 
@@ -43,37 +88,20 @@
   - [LoRa Library GitHub](https://github.com/sandeepmistry/arduino-LoRa)
   - [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
 
+# Course Venue & Timings
 
-# Lab Exercises
-
-## Lab 1: Dimming LED
-
-In this exercise we are going to use the ESP32 to control the light intensity of an external LED using PWM signal.
-
-- From the [LED Datasheet](docs/Datasheet-LED-XLMR01DE.pdf) tabulate the following data:
-  - Maximum Forward current (If)
-  - Typical Forward Voltage (Vf)
-  - Dominant Wavelength (lambdaD)
-  - Estimate the color (RGB) from the above wavelength
-  - Typical Cacpacitance (pF)
-  - Operating temperature range
-- From the [ESP32 Datasheet](docs/Datasheet-ESP32.pdf) find and tabulate:
-  - the maximum output voltage of the GPIO pins, and
-  - the maximum current that the GPIO can source from supply to the load.
-- Calculate the value of the resistance to pass _half of the Maximum_ forward current (If) when ON.
-  - Make sure this current can be sourced by the output port.
-- Find the closest *E12* standardized resistors value available in the market to use for the above limiter.
-  - See this [guide](https://eepower.com/resistor-guide/resistor-standards-and-codes/resistor-values/#) on resistor standardization.
-- Calculate the maximum frequency you can switch the LED such that, the RC time-constant of the LED-cap-resitor is at least 1/25 of the switching period.
-- Find out what is the minimum frequency you can switch the LED.
-- Decide on a frequency which is safely in between the minimum and maximum.
-- Write a program for ESP32:
-  - Assign an output port for the LED
-  - Assign an input port for 2-step dimmer control.
-    - 1: Full intensity, 0: 25-percent intensity.
-  - Write a program to control the LED intensity using Pulse-Width Modulation (PWM).
-    
-
+- 📆 **DURATION**: June 25th till July 12th (3 weeks)
+- ⏲️ **TIMINGS**:
+  - Theory Sessions 🕙 **10:00am - 1:00pm**
+  - Hands-on practical Sessions 🕝 **2:30pm - 5:30pm**
+- 🏛️ **VENUE**(Old Building):
+  - Theory & Practical Sessions: **Room 04-10** (Advanced VLSI Training Lab)
+    - **NOTE** The venue for **June 25th ONLY** is **Training Hall-2, 2nd Floor, New Building**.
+- 👨‍🏫 **RESOURCE PERSONS**:
+  - [Dr. Saroj Rout](https://sroutk.github.io) and [Prof. Prasant Swain](https://silicon.ac.in/wp-content/uploads/2022/04/Prasant-Kumar-Swain.pdf), *ECE*, *Silicon University*
+  - [Dr. (Prof.) Chinmoy Saha](https://www.iist.ac.in/avionics/chinmoysaha) and [Dr. (Prof.) Priyadarshanam](https://www.iist.ac.in/avionics/priyadarshnam), *Dept. of Avionics, Indian Institute of Space Science and Technology*
+  - [Adnaan M](https://www.linkedin.com/in/adnaan-m-262a261b2/), Founder, *ToSpace, Karur, Tamil Nadu*.
+ 
 # Course Details
 
 - 📖 **PREREQUISITES**:
