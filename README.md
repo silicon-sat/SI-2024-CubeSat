@@ -7,6 +7,7 @@
   - [June 25: CubeSat101](docs/lectures/2024-0625-CubeSat101.pdf): Basic concepts and processes.
   - [June 26: CubeSat Communication I](docs/lectures/2024-0626-CubeSat-Communication.pdf): LoRa-based CubSat Commuication HW architecture.
   - [June 27: CubeSat Communication II](docs/lectures/2024-0627-CubeSat-Communication-2.pdf): Digital Communication, EM Spectrum, EM Field, LoRa Radio Architecture.
+  - [July 01: CMOS VLSI Design](docs/lectures/2024-0701-Intro-VLSI-Design.pdf): An introduction.
   - [July 02: LoRa Basics](docs/lectures/2024-0702-LoRa-Basics.pdf): Spread-Spectrum Modem, LoRa Basics (Spreading factor, BW, SNR, Bit Rate).
   - [July 03: Antenna Basics](docs/lectures/2024-0703-Antenna.pdf): Radiation mechanism, equivalent circuit, Radiation pattern, polarization, types of antenna, antenna tuning. 
 
@@ -23,11 +24,11 @@
     - [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
 
 - **LITERATURE**
-  - Rappaport, "*Wireless Communication Principles*", PHI, 2002 ([Link](https://www.dropboxx.com/scl/fi/22fosc0i4s3rnj66rd5xm/Rappaport-WirelessCommunicationsPrinciples-Prentice-Hall-PTR-2002.pdf?rlkey=33d77z1wx5twk8jr50xmafttp&dl=0) : Chap5: Modulation techniques for Mobile Radio 5.4 Digital Modulation technique (p-220) 5.10 SPread spectrum Modulation Technique 
-  - Xiong, "*Digital Modulation Techniques*", Artech, 2006 ([Link](https://www.dropboxx.com/scl/fi/5lhdmeyicf5vny3vprobe/Xiong-DigitalModulationTechniques-2e-Artech-2006.pdf?rlkey=e5tjkqvkcur387ouheymkfq8c&dl=0))
+  - Rappaport, "*Wireless Communication Principles*", PHI, 2002 ([Link](https://www.github.com/scl/fi/22fosc0i4s3rnj66rd5xm/Rappaport-WirelessCommunicationsPrinciples-Prentice-Hall-PTR-2002.pdf?rlkey=33d77z1wx5twk8jr50xmafttp&dl=0) : Chap5: Modulation techniques for Mobile Radio 5.4 Digital Modulation technique (p-220) 5.10 SPread spectrum Modulation Technique 
+  - Xiong, "*Digital Modulation Techniques*", Artech, 2006 ([Link](https://www.github.com/scl/fi/5lhdmeyicf5vny3vprobe/Xiong-DigitalModulationTechniques-2e-Artech-2006.pdf?rlkey=e5tjkqvkcur387ouheymkfq8c&dl=0))
 
-  - Siwiak, Bahreini, "*Radiowave Propagation and Antennas", Artech, 2007 ([Link](https://www.dropboxx.com/scl/fi/stcjy2n63mio0aqya6neo/Siwiak-Bahreini-RadiowavePropagation-Artech-2007.pdf?rlkey=5xg6rb5dffnr539q9qga2x6hs&dl=0) ( - Chap4: Radio Frequency Spectrum - p 99, - Chap5: Comm using Earth-Orbiting Satellites.)
-  - Balanis, C, "Antenna Thoery" Wiley, 2005 ([Link]())
+  - Siwiak, Bahreini, "*Radiowave Propagation and Antennas*", Artech, 2007 ([Link](https://www.github.com/scl/fi/stcjy2n63mio0aqya6neo/Siwiak-Bahreini-RadiowavePropagation-Artech-2007.pdf?rlkey=5xg6rb5dffnr539q9qga2x6hs&dl=0) ( - Chap4: Radio Frequency Spectrum - p 99, - Chap5: Comm using Earth-Orbiting Satellites.)
+  - Balanis, C, "Antenna Thoery" Wiley, 2005 ([Link](https://www.github.com/scl/fi/6a3rakx1g605hhrpsnbjx/Balanis-AntennaTheory-4thEd-2016.pdf?rlkey=d0khyp7zjqsrzitr59etz74r2&dl=0))
   
 ## Lab 5: Introduction Signal Processing using Python
 
