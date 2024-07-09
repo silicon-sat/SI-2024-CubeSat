@@ -1,6 +1,6 @@
 🛰️ This is the portal for Summer Internship 2024 on Introduction to CubeSat and Satellite Communication. 📡
 
-
+[LoRA Pinout diagram](https://github.com/silicon-sat/SI-2024-CubeSat/blob/main/images/RA-02-pin.png)
 # Resources
 
 - **LECTURE SLIDES**
