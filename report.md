@@ -20,7 +20,6 @@ Course introduction describing the step-by-step process from learning ESP32 embe
 
 ## Basic Bandpass Modulation 
 
- Include the python simulation result here.
 
 ## Electromagnetic Spectrum
 
