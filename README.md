@@ -29,61 +29,99 @@
   - Siwiak, Bahreini, "*Radiowave Propagation and Antennas*", Artech, 2007 ([Link](https://www.github.com/scl/fi/stcjy2n63mio0aqya6neo/Siwiak-Bahreini-RadiowavePropagation-Artech-2007.pdf?rlkey=5xg6rb5dffnr539q9qga2x6hs&dl=0) ( - Chap4: Radio Frequency Spectrum - p 99, - Chap5: Comm using Earth-Orbiting Satellites.)
   - Balanis, C, "Antenna Thoery" Wiley, 2005 ([Link](https://www.github.com/scl/fi/6a3rakx1g605hhrpsnbjx/Balanis-AntennaTheory-4thEd-2016.pdf?rlkey=d0khyp7zjqsrzitr59etz74r2&dl=0))
   - NASA CubeSat Launch Initiative (NCSLI), _CubeSat 101: Basic Concepts and Processes for First-Time CubeSat Developers_, Oct 2017 ([PDF](docs/NASA_CSLI_CubeSAT_101_508.pdf))
-## Lab 5: Introduction Signal Processing using Python
 
-- You can use [lab1-fft.py](Labs/python/lab1-fft.py) and [lab2-fsk.py](Labs/python/lab2-fsk.py) as reference for the following exercises:
-- Write a python program to create a _cosine wave_ of frequency `2MHz` with `256` samples per cycle.
-- Plot it with proper annonation and axis labeling. 
-- Compute the `FFT` of the above signal and plot it.
-  - You will notice the FFT resolution is very limited for a single cycle.
-- Create another a signal of frequency `3MHz`, add it to above signal and do `FFT` for the resultant signal.
-- Simulate [lab2-fsk.py](Labs/python/lab2-fsk.py) and anlayze the plot to understand FSK modulation.
-  - Change the code such that the modulation frequency for `1` is `4MHz` and for `0` it is `3MHz`.
-- Change the above code to simulate ASK modulation.
-- Add demodulation to the above code and plot the time-domain waveform, as well as the FFT of the demodulated signal.
-- Add a moving average filter to remove the high-frequency component from the demodulated signal.
+ - **OPEN-SOURCE/FREE PRODUCTIVITY TOOLS** (Recommended):
+   - **Python** : For programming, scripting, plotting (using `matplotlib` lib), scientific computing (popular libs: `numpy`, scipy`).
+   - [**Draw.io**](https://app.diagrams.net/): Drawing tool with built-in libraries for all types of application including electrical circuit diagram, flow-charts, etc.
+   - [**Overleaf**](https://overleaf.com): Website for writing **LaTeX** documents for very high-quality technical documents.
+   - [**GitHub**](https://github.com): For hosting projects, websites, codes, collaborative projects and many more.
 
-## Lab 4: I2C-based OLED Display control.
+# Lab Exercises
 
-In this Lab students learnt to use a I2C-based OLED display to display data on it.
+- **Lab 1: Intro to ESP32 Programming**
+  - Install and configure Arduino IDE
+  - Introduction to ESP32 development kit.
+  - Write and execute a C-code to blink an LED on the dev board.
 
+- **Lab 2: Intro to GPIO programming**
+  - In this Lab exercise, students learn to configure a GPIO as an output and control an LED with it.
 
-## Lab 3: Dimming LED using PWM
-
-In this exercise we are going to use the ESP32 to control the light intensity of an external LED using PWM signal.
-
-- From the [LED Datasheet](docs/Datasheet-LED-XLMR01DE.pdf) tabulate the following data:
-  - Maximum Forward current (If)
-  - Typical Forward Voltage (Vf)
-  - Dominant Wavelength (lambdaD)
-  - Estimate the color (RGB) from the above wavelength
-  - Typical Cacpacitance (pF)
-  - Operating temperature range
-- From the [ESP32 Datasheet](docs/Datasheet-ESP32.pdf) find and tabulate:
-  - the maximum output voltage of the GPIO pins, and
-  - the maximum current that the GPIO can source from supply to the load.
-- Calculate the value of the resistance to pass _half of the Maximum_ forward current (If) when ON.
-  - Make sure this current can be sourced by the output port.
-- Find the closest *E12* standardized resistors value available in the market to use for the above limiter.
-  - See this [guide](https://eepower.com/resistor-guide/resistor-standards-and-codes/resistor-values/#) on resistor standardization.
-- Calculate the maximum frequency you can switch the LED such that, the RC time-constant of the LED-cap-resitor is at least 1/25 of the switching period.
-- Find out what is the minimum frequency you can switch the LED.
-- Decide on a frequency which is safely in between the minimum and maximum.
-- Write a program for ESP32:
-  - Assign an output port for the LED
-  - Assign an input port for 2-step dimmer control.
-    - 1: Full intensity, 0: 25-percent intensity.
-  - Write a program to control the LED intensity using Pulse-Width Modulation (PWM).
+- **Lab 3: Dimming LED using PWM**
+  - In this exercise we are going to use the ESP32 to control the light intensity of an external LED using PWM signal.
+  - From the [LED Datasheet](docs/Datasheet-LED-XLMR01DE.pdf) tabulate the following data:
+    - Maximum Forward current (If)
+    - Typical Forward Voltage (Vf)
+    - Dominant Wavelength (lambdaD)
+    - Estimate the color (RGB) from the above wavelength
+    - Typical Cacpacitance (pF)
+    - Operating temperature range
+  - From the [ESP32 Datasheet](docs/Datasheet-ESP32.pdf) find and tabulate:
+    - the maximum output voltage of the GPIO pins, and
+    - the maximum current that the GPIO can source from supply to the load.
+  - Calculate the value of the resistance to pass _half of the Maximum_ forward current (If) when ON.
+    - Make sure this current can be sourced by the output port.
+  - Find the closest *E12* standardized resistors value available in the market to use for the above limiter.
+    - See this [guide](https://eepower.com/resistor-guide/resistor-standards-and-codes/resistor-values/#) on resistor standardization.
+  - Calculate the maximum frequency you can switch the LED such that, the RC time-constant of the LED-cap-resitor is at least 1/25 of the switching period.
+  - Find out what is the minimum frequency you can switch the LED.
+  - Decide on a frequency which is safely in between the minimum and maximum.
+  - Write a program for ESP32:
+    - Assign an output port for the LED
+    - Assign an input port for 2-step dimmer control.
+      - 1: Full intensity, 0: 25-percent intensity.
+    - Write a program to control the LED intensity using Pulse-Width Modulation (PWM).
     
-## Lab 2: Intro to GPIO programming.
+- **Lab 4: Dimming multiple LEDs**
+  - ESP32 GPIO pins were used to dim multiiple LEDs with different delays.
 
-In this Lab exercise, students learn to configure a GPIO as an output and control an LED with it.
+- **Lab 5: Printing data in the serial monitor**
+  - The **Serial Monitor** is an essential tool when creating projects with Arduino. It can be used as a debugging tool, testing concepts, or communicating directly with the Arduino board.
+  - The **Arduino IDE 2** has the Serial Monitor tool integrated with the editor, which means that no external window is opened when using the Serial Monitor. This means that you can have multiple windows open, each with its own Serial Monitor.
 
-## Lab 1: Intro to ESP32 Programming 
+- **Lab 6: Controlling an LED through serial monitor**
+  - Controlling an LED connected to ESP32 by reading commands from the serial monitor and turning the LED on or off based on those commands. 
 
-- Install and configure Arduino IDE
-- Introduction to ESP32 development kit.
-- Write and execute a C-code to blink an LED on the dev board.
+- **Lab 7: I2C-based OLED Display control**
+  - I2C-based OLED pin details. Importing OLED libraries. Structure of the OLED. Displaying simple Text and Scrolling Text in different ways.
+
+- **Lab 8: Introduction Signal Processing using Python**
+  - You can use [lab1-fft.py](Labs/python/lab1-fft.py) and [lab2-fsk.py](Labs/python/lab2-fsk.py) as reference for the following exercises:
+  - Write a python program to create a _cosine wave_ of frequency `2MHz` with `256` samples per cycle.
+  - Plot it with proper annonation and axis labeling. 
+  - Compute the `FFT` of the above signal and plot it.
+    - You will notice the FFT resolution is very limited for a single cycle.
+  - Create another a signal of frequency `3MHz`, add it to above signal and do `FFT` for the resultant signal.
+  - Simulate [lab2-fsk.py](Labs/python/lab2-fsk.py) and anlayze the plot to understand FSK modulation.
+    - Change the code such that the modulation frequency for `1` is `4MHz` and for `0` it is `3MHz`.
+  - Change the above code to simulate ASK modulation.
+  - Add demodulation to the above code and plot the time-domain waveform, as well as the FFT of the demodulated signal.
+  - Add a moving average filter to remove the high-frequency component from the demodulated signal.
+
+- **Lab 9: I2C temperature sensor interface**
+  - Display of room temperature and humidity through OLED as well as serial monitor using DHT22 with ESP32.
+
+- **Lab 10: Introduction to LoRa module**
+  - Introduction to architecture and pin configuration of *Ra-02 Lora transceiver module* and *SPI (Serial Peripheral Interface)* communication.
+
+- **Lab 11: LoRa communication**
+  - Introduction to Lora communication using Ra-02 Lora transceiver module with ESP32.
+
+- **Lab 12: Communication between two LoRa nodes**
+  - Sending Text packets and receiving the text packets with *RSSI (Received Signal 
+  - Strength Indicator)* and *SNR* through Serial monitor.
+  - Sending Temperature and humidity packets and receiving the same packets with RSSI (Received Signal Strength Indicator) and SNR through a Serial monitor as well as an OLED display.
+
+- **Lab 13: LoRa one-to-many communication setup**
+  - Sending data packets from one Lora transmitter to multiple Lora receivers and retracing the same packets.
+
+- **Lab 14: Introduction to antenna modeling and simulation software 4NEC2.**
+
+- **Lab 15: Physical design of Dipole and V-dipole antennas**
+  - Tune it to 433MHz with the help of NanoVNA-A Portable VNA Antenna Analyzer Kit with 10KHz-1.5GHz, 2.8 Inch Digital LCD Display Touching Screen Standing Wave Measuring Instrument.
+
+- **Lab 16: Introduction to TinyGS**
+
+- **Lab 17: Setting up a TinyGS ground station**
 
 
 # Lab Info
