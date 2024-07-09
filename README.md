@@ -29,7 +29,7 @@
 
   - Siwiak, Bahreini, "*Radiowave Propagation and Antennas*", Artech, 2007 ([Link](https://www.github.com/scl/fi/stcjy2n63mio0aqya6neo/Siwiak-Bahreini-RadiowavePropagation-Artech-2007.pdf?rlkey=5xg6rb5dffnr539q9qga2x6hs&dl=0) ( - Chap4: Radio Frequency Spectrum - p 99, - Chap5: Comm using Earth-Orbiting Satellites.)
   - Balanis, C, "Antenna Thoery" Wiley, 2005 ([Link](https://www.github.com/scl/fi/6a3rakx1g605hhrpsnbjx/Balanis-AntennaTheory-4thEd-2016.pdf?rlkey=d0khyp7zjqsrzitr59etz74r2&dl=0))
-  
+  - NASA CubeSat Launch Initiative (NCSLI), _CubeSat 101: Basic Concepts and Processes for First-Time CubeSat Developers_, Oct 2017 ([PDF](docs/NASA_CSLI_CubeSAT_101_508.pdf))
 ## Lab 5: Introduction Signal Processing using Python
 
 - You can use [lab1-fft.py](Labs/python/lab1-fft.py) and [lab2-fsk.py](Labs/python/lab2-fsk.py) as reference for the following exercises:
