@@ -38,6 +38,20 @@
    - [**Overleaf**](https://overleaf.com): Website for writing **LaTeX** documents for very high-quality technical documents.
    - [**GitHub**](https://github.com): For hosting projects, websites, codes, collaborative projects and many more.
 
+# Current Lab
+
+- **Lab 18: Processing TLE data with Python**
+  - Using genAI tool (ChatGPT, CoPilot, etc) find out the detail about the satellite Two-Line Element (TLE) format.
+  - Write a Python programm to conver a TLE of satellite into a Lat/Long location.
+    - You can get all the TLEs of satellites tracked by TinyGS [here](https://api.tinygs.com/v1/tinygs_supported.txt)
+  - Generate the output as an URL that you can paste in a browser and get the satellite location.
+  - And modify the above program such the [TLE data file](https://api.tinygs.com/v1/tinygs_supported.txt) can be given as input with the two line numbers to process.
+
+- **Lab 19: Simulating Digital Spread Spectrum Modulation**
+  - Resimulate FSK from **Lab 8**
+  - Introduce code to convert the digital data into spread spectrum before modulating it to a higher frequency.
+
+
 # Lab Exercises
 
 - **Lab 1: Intro to ESP32 Programming**
