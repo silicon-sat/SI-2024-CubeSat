@@ -10,6 +10,8 @@
   - [July 01: CMOS VLSI Design](docs/lectures/2024-0701-Intro-VLSI-Design.pdf): An introduction.
   - [July 02: LoRa Basics](docs/lectures/2024-0702-LoRa-Basics.pdf): Spread-Spectrum Modem, LoRa Basics (Spreading factor, BW, SNR, Bit Rate).
   - [July 03: Antenna Basics](docs/lectures/2024-0703-Antenna.pdf): Radiation mechanism, equivalent circuit, Radiation pattern, polarization, types of antenna, antenna tuning. 
+  - [July 10: RaspberryPi for Space](docs/lectures/2024-0710-RasPi-RadHard.pdf): Considerations for building elecrotnic systems for space eg. Radiation hardening. 
+
 
 - **DATASHEETS/APP NOTES**
   - [Datasheet SX127X](docs/Datasheet-SX1276-7-8-9_W_APP_V7.pdf)
