@@ -2,41 +2,60 @@
 
 # Resources
 
-- **LECTURE SLIDES**
-  - [June 25: CubeSat101](docs/lectures/2024-0625-CubeSat101.pdf): Basic concepts and processes.
-  - [June 26: CubeSat Communication I](docs/lectures/2024-0626-CubeSat-Communication.pdf): LoRa-based CubSat Commuication HW architecture.
-  - [June 27: CubeSat Communication II](docs/lectures/2024-0627-CubeSat-Communication-2.pdf): Digital Communication, EM Spectrum, EM Field, LoRa Radio Architecture.
-  - [July 01: CMOS VLSI Design](docs/lectures/2024-0701-Intro-VLSI-Design.pdf): An introduction.
-  - [July 02: LoRa Basics](docs/lectures/2024-0702-LoRa-Basics.pdf): Spread-Spectrum Modem, LoRa Basics (Spreading factor, BW, SNR, Bit Rate).
-  - [July 03: Antenna Basics](docs/lectures/2024-0703-Antenna.pdf): Radiation mechanism, equivalent circuit, Radiation pattern, polarization, types of antenna, antenna tuning. 
-  - [July 10: RaspberryPi for Space](docs/lectures/2024-0710-RasPi-RadHard.pdf): Considerations for building elecrotnic systems for space eg. Radiation hardening. 
+## Lecture Slides
+
+- [June 25: CubeSat101](docs/lectures/2024-0625-CubeSat101.pdf): Basic concepts and processes.
+- [June 26: CubeSat Communication I](docs/lectures/2024-0626-CubeSat-Communication.pdf): LoRa-based CubSat Commuication HW architecture.
+- [June 27: CubeSat Communication II](docs/lectures/2024-0627-CubeSat-Communication-2.pdf): Digital Communication, EM Spectrum, EM Field, LoRa Radio Architecture.
+- [July 01: CMOS VLSI Design](docs/lectures/2024-0701-Intro-VLSI-Design.pdf): An introduction.
+- [July 02: LoRa Basics](docs/lectures/2024-0702-LoRa-Basics.pdf): Spread-Spectrum Modem, LoRa Basics (Spreading factor, BW, SNR, Bit Rate).
+- [July 03: Antenna Basics](docs/lectures/2024-0703-Antenna.pdf): Radiation mechanism, equivalent circuit, Radiation pattern, polarization, types of antenna, antenna tuning. 
+- [July 10: RaspberryPi for Space](docs/lectures/2024-0710-RasPi-RadHard.pdf): Considerations for building elecrotnic systems for space eg. Radiation hardening. 
 
 
-- **DATASHEETS/APP NOTES**
-  - [Datasheet SX127X](docs/Datasheet-SX1276-7-8-9_W_APP_V7.pdf)
-  - [Application Note AN1200-22: LoRa Basics](docs/AN1200_22_Semtech_LoRa_Basics_v2_STD.pdf): This application note covers the basics of LoRa Modulation including spread-spectrum communication and LoRa spread spectrum. 
-  - [Ai Thinker's LoRa Radio Module RA-02](AiThinkerRA02.md) is RF radio module based on the Semtech's SX127X transceiver chip. This module will be used for all the satellite communication Lab exercises as well as the [tinyGS](https://tinygs.com) ground station. This page provides the basic information about the module.
-    - [Datasheet RA-02: LoRa modeule](docs/datasheet-LoRaModule-RA02-v1_1.pdf): Ai Thinker's LoRa Radio Module RA-02
-    - [Datasheet ESP32 SoC](docs/Datasheet-ESP32.pdf)
-    - [Datasheet ESP32 WROOM32E Module](docs/Datasheet-ESP32-WROOM32E.pdf)
-    - [Engineering Reference Manual ESP32](docs/esp32_technical_reference_manual_en.pdf)
-  - LoRa Library for ESP32 firmware development:
-    - [LoRa Library GitHub](https://github.com/sandeepmistry/arduino-LoRa)
-    - [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
+## Datasheets/AppNotes
 
-- **LITERATURE**
-  - Rappaport, "*Wireless Communication Principles*", PHI, 2002 ([Link](https://www.github.com/scl/fi/22fosc0i4s3rnj66rd5xm/Rappaport-WirelessCommunicationsPrinciples-Prentice-Hall-PTR-2002.pdf?rlkey=33d77z1wx5twk8jr50xmafttp&dl=0) : Chap5: Modulation techniques for Mobile Radio 5.4 Digital Modulation technique (p-220) 5.10 SPread spectrum Modulation Technique 
-  - Xiong, "*Digital Modulation Techniques*", Artech, 2006 ([Link](https://www.github.com/scl/fi/5lhdmeyicf5vny3vprobe/Xiong-DigitalModulationTechniques-2e-Artech-2006.pdf?rlkey=e5tjkqvkcur387ouheymkfq8c&dl=0))
+- [Datasheet SX127X](docs/Datasheet-SX1276-7-8-9_W_APP_V7.pdf)
+- [Application Note AN1200-22: LoRa Basics](docs/AN1200_22_Semtech_LoRa_Basics_v2_STD.pdf): This application note covers the basics of LoRa Modulation including spread-spectrum communication and LoRa spread spectrum. 
+- [Ai Thinker's LoRa Radio Module RA-02](AiThinkerRA02.md) is RF radio module based on the Semtech's SX127X transceiver chip. This module will be used for all the satellite communication Lab exercises as well as the [tinyGS](https://tinygs.com) ground station. This page provides the basic information about the module.
+  - [Datasheet RA-02: LoRa modeule](docs/datasheet-LoRaModule-RA02-v1_1.pdf): Ai Thinker's LoRa Radio Module RA-02
+  - [Datasheet ESP32 SoC](docs/Datasheet-ESP32.pdf)
+  - [Datasheet ESP32 WROOM32E Module](docs/Datasheet-ESP32-WROOM32E.pdf)
+  - [Engineering Reference Manual ESP32](docs/esp32_technical_reference_manual_en.pdf)
+- LoRa Library for ESP32 firmware development:
+  - [LoRa Library GitHub](https://github.com/sandeepmistry/arduino-LoRa)
+  - [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
 
-  - Siwiak, Bahreini, "*Radiowave Propagation and Antennas*", Artech, 2007 ([Link](https://www.github.com/scl/fi/stcjy2n63mio0aqya6neo/Siwiak-Bahreini-RadiowavePropagation-Artech-2007.pdf?rlkey=5xg6rb5dffnr539q9qga2x6hs&dl=0) ( - Chap4: Radio Frequency Spectrum - p 99, - Chap5: Comm using Earth-Orbiting Satellites.)
-  - Balanis, C, "Antenna Thoery" Wiley, 2005 ([Link](https://www.github.com/scl/fi/6a3rakx1g605hhrpsnbjx/Balanis-AntennaTheory-4thEd-2016.pdf?rlkey=d0khyp7zjqsrzitr59etz74r2&dl=0))
-  - NASA CubeSat Launch Initiative (NCSLI), _CubeSat 101: Basic Concepts and Processes for First-Time CubeSat Developers_, Oct 2017 ([PDF](docs/NASA_CSLI_CubeSAT_101_508.pdf))
+## Literature
 
- - **OPEN-SOURCE/FREE PRODUCTIVITY TOOLS** (Recommended):
+- Rappaport, "*Wireless Communication Principles*", PHI, 2002 ([Link](https://www.github.com/scl/fi/22fosc0i4s3rnj66rd5xm/Rappaport-WirelessCommunicationsPrinciples-Prentice-Hall-PTR-2002.pdf?rlkey=33d77z1wx5twk8jr50xmafttp&dl=0) : Chap5: Modulation techniques for Mobile Radio 5.4 Digital Modulation technique (p-220) 5.10 SPread spectrum Modulation Technique 
+- Xiong, "*Digital Modulation Techniques*", Artech, 2006 ([Link](https://www.github.com/scl/fi/5lhdmeyicf5vny3vprobe/Xiong-DigitalModulationTechniques-2e-Artech-2006.pdf?rlkey=e5tjkqvkcur387ouheymkfq8c&dl=0))
+
+- Siwiak, Bahreini, "*Radiowave Propagation and Antennas*", Artech, 2007 ([Link](https://www.github.com/scl/fi/stcjy2n63mio0aqya6neo/Siwiak-Bahreini-RadiowavePropagation-Artech-2007.pdf?rlkey=5xg6rb5dffnr539q9qga2x6hs&dl=0) ( - Chap4: Radio Frequency Spectrum - p 99, - Chap5: Comm using Earth-Orbiting Satellites.)
+- Balanis, C, "Antenna Thoery" Wiley, 2005 ([Link](https://www.github.com/scl/fi/6a3rakx1g605hhrpsnbjx/Balanis-AntennaTheory-4thEd-2016.pdf?rlkey=d0khyp7zjqsrzitr59etz74r2&dl=0))
+- NASA CubeSat Launch Initiative (NCSLI), _CubeSat 101: Basic Concepts and Processes for First-Time CubeSat Developers_, Oct 2017 ([PDF](docs/NASA_CSLI_CubeSAT_101_508.pdf))
+
+## Antennas
+
+- **4NEC2** Simulator
+  - [Quick Start Guide](quickstart-4NEC2.md)
+  - [Tutorial-1](tutorial-1-4NEC2-dipole-Ryan-2009.pdf): Dipole simulation
+  - [Tutorial-2](tutorial-2-4NEC2-Examples.pdf): Two examples
+  - [Tutorial-3](tutorial-3-4NEC2-Begineers-Kraus-2010.pdf): For begineers
+  - [Tutorial-4](tutorial-4-4NEC2-PeterKnott-2009.pdf): with exercises.
+- **Videos**
+  - [Understanding the Smith Chart](https://youtu.be/rUDMo7hwihs?si=bHEWsNJg5zgmNm4U): Rhode and Schwarz series
+  - [Basics of the Smith Chart](https://youtu.be/TsXd6GktlYQ?si=FRB_WvfnyRH4HcoC)
+  - [Understanding VSWR and Return Loss](https://youtu.be/BijMGKbT0Wk?si=wqjmYf5RcEGOcX75)
+
+
+## Open-Source/Free Productivity Tools
+
    - **Python** : For programming, scripting, plotting (using `matplotlib` lib), scientific computing (popular libs: `numpy`, scipy`).
    - [**Draw.io**](https://app.diagrams.net/): Drawing tool with built-in libraries for all types of application including electrical circuit diagram, flow-charts, etc.
    - [**Overleaf**](https://overleaf.com): Website for writing **LaTeX** documents for very high-quality technical documents.
    - [**GitHub**](https://github.com): For hosting projects, websites, codes, collaborative projects and many more.
+
 
 # Current Lab
 

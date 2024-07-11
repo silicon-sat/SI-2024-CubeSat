@@ -7,7 +7,27 @@ This is a quickstart guide which takes the included dipole example and demonstra
   - `File-> Open 4nec2 in/out file` or click the _first_ menu button from the left and load:
   - `C:\4nec2\models\exampl2.nec`
 - This example is a _copper-wire dipole_ tuned at _300 MHz_.
-- The code syntax is explained in the section below:
+- The code syntax is explained in the section below.
+- To check the geometry of the antenna, open the `Geometry (F3)` window by clocking on the fourth button from the left or typing `F3`.
+- Before opening the _NEC Editor_, there are 4 options to choose from the `Settings` menu:
+  - Notepad Edit
+  - NEC Editor (_Reommended_)
+  - Geometry Edit
+  - NEC Editor (new)
+- It's a personal preference based on experience and comfort level. the default `NEC Editor` is a good choice since you can go line by line and the editor parses it to show each element of the function that you can edit intuitively.
+- To get the **Radiation Pattern**, click the 5th button from the right or `F7` to get the _Calculate_ dialog box.
+  - Select `Far Field Pattern` and with the rest of the settings as it is, click `Generate`.
+  - The 2D `Pattern (F4)` window will come up where you can select the various planes of the radiation pattern and measure the gain in any direction using the mouse and bindkeys.
+  - The 3D pattern viewer can be invoked by clicking the 5th button from the left or `F9`.
+  - In the right middle section, there are 3 drop down menus, select `Structure, Multicolor & Tot-Gain` to see the 3D radiation pattern.
+  - Change to `2D-slice` which shows the pattern in the 2D pattern plot. 
+  - You can change the slice angle of the _Vertical plane_ with `Left` and `Right` arrow keys and change the slice angle of the _Horizontal plane_ with `Up` and `Down` keys. 
+- To generate VSWR, Smith Chart, etc, click `Generate (F7)` and select `Frequency Sweep`
+  - Enter the `Start` and `Stop` Frequency and click `Generate` 
+  - It will generate the SWR plot which can be used to tune the antenna.
+  - _Impedance, SWR, etc._ data can be seen in the main window. 
+  - You can get _matching network_ data by clocking the `Matching Network (F10)` 3rd button from the right.
+
 
 # Syntax explaination for the Dipole example 
 
