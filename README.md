@@ -187,6 +187,11 @@
   - [LoRa Library GitHub](https://github.com/sandeepmistry/arduino-LoRa)
   - [LoRa Arduino Library Reference](https://www.arduino.cc/reference/en/libraries/lora)
 
+# Student GitHub Pages
+
+- [Agarwal K.](https://github.com/Komal15agarwal/SI-2024-Cubesat-KA)
+
+
 # Course Venue & Timings
 
 - 📆 **DURATION**: June 25th till July 12th (3 weeks)
@@ -235,6 +240,7 @@
     - Setting up a TinyGS ground station using an ESP32 platform.
     - Design and tune an antenna for the ground station.
     - A group of three will design a implement their ground station. The ground stations will be judged based on figure of merit based on the density of satellites and the strength of the signal received. The final winner will present a poster during the upcoming NES-2024 workshop.
+
 
 
 
