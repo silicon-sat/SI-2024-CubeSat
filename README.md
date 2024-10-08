@@ -190,7 +190,13 @@
 # Student GitHub Pages
 
 - [Agarwal K.](https://github.com/Komal15agarwal/SI-2024-Cubesat-KA)
-
+- [Donald](https://github.com/DonaldB2003/SI-2024-CubeSat-SU)
+- [Sahoo A.](https://github.com/AshritaSahoo/SIT-CUBESAT-AS)
+- [Mohanty A.](https://github.com/AVM-GITHUB/SI-2024-CubeSat-SU)
+- [Prusty A.](https://github.com/nehaa38/SI-2024-CUBESAT-SU)
+- [Pooja](https://github.com/Pooja6608/SI-2024-Cubesat-SU)
+- [Sathpaty A.](https://github.com/Ananya22becb94/SI-2024-CubeSat-AS)
+  
 
 # Course Venue & Timings
 
