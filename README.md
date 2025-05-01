@@ -1,4 +1,6 @@
-🛰️ This is the portal for Summer Internship 2024 on Introduction to CubeSat and Satellite Communication. 📡
+# Introduction to CubeSat and Satellite Communication
+
+🛰️ Introduction to CubeSat and Satellite Communication 📡 was launched as a summer internship course in June 2024 to targeting 1st year B.Tech. students to excite them in the STEM branch. It was successfully conducted and the detail of the course is documented in this page.
 
 # Course Venue & Timings
 
