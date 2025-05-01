@@ -1,6 +1,6 @@
 # Introduction to CubeSat and Satellite Communication
 
-🛰️ Introduction to CubeSat and Satellite Communication 📡 was launched as a summer internship course in June 2024 to targeting 1st year B.Tech. students to excite them in the STEM branch. It was successfully conducted and the detail of the course is documented in this page.
+🛰️ _Introduction to CubeSat and Satellite Communication_ 📡 was launched as a summer internship course in June 2024 by the _Electronic Engineering Department_ at [Silicon University, Odisha](https://silicon.ac.in). This course was designed to target 1st year B.Tech. students to excite them in the STEM branch. It was successfully conducted and the detail of the course is documented in this page.
 
 # Course Venue & Timings
 
